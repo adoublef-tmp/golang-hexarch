@@ -3,9 +3,9 @@ package driving
 import (
 	"errors"
 	"github.com/gofiber/fiber/v2"
-	"hexarch/core/domain"
-	"hexarch/core/ports"
-	"hexarch/core/ports/inbound"
+	"github.com/roku-on-it/golang-search/core/domain"
+	"github.com/roku-on-it/golang-search/core/ports"
+	"github.com/roku-on-it/golang-search/core/ports/inbound"
 )
 
 func SetupUserHTTPAdapter(usrSrv inbound.UserService, r fiber.Router) {

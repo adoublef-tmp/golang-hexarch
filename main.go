@@ -1,10 +1,11 @@
 package main
 
 import (
+	adapters "github.com/roku-on-it/golang-search/adapters/driven"
+	"github.com/roku-on-it/golang-search/adapters/driving"
+	"github.com/roku-on-it/golang-search/core/services"
+
 	"github.com/gofiber/fiber/v2"
-	adapters "hexarch/adapters/driven"
-	"hexarch/adapters/driving"
-	"hexarch/core/services"
 )
 
 func main() {

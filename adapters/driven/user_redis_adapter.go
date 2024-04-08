@@ -5,8 +5,8 @@ import (
 	"errors"
 	"github.com/google/uuid"
 	"github.com/redis/go-redis/v9"
-	"hexarch/core/domain"
-	"hexarch/core/ports"
+	"github.com/roku-on-it/golang-search/core/domain"
+	"github.com/roku-on-it/golang-search/core/ports"
 	"strconv"
 	"strings"
 )

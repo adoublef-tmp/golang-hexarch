@@ -1,8 +1,8 @@
 package services
 
 import (
-	"hexarch/core/domain"
-	"hexarch/core/ports/outbound"
+	"github.com/roku-on-it/golang-search/core/domain"
+	"github.com/roku-on-it/golang-search/core/ports/outbound"
 )
 
 type userService struct {

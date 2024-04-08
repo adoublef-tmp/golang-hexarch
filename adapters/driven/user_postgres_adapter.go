@@ -1,6 +1,6 @@
 package driven
 
-import "hexarch/core/domain"
+import "github.com/roku-on-it/golang-search/core/domain"
 
 // Example implementation
 

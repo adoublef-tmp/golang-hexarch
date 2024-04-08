@@ -1,7 +1,7 @@
 package inbound
 
 import (
-	"hexarch/core/domain"
+	"github.com/roku-on-it/golang-search/core/domain"
 )
 
 type UserService interface {

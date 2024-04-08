@@ -1,4 +1,4 @@
-module hexarch
+module github.com/roku-on-it/golang-search
 
 go 1.21
 
@@ -6,6 +6,7 @@ require (
 	github.com/gofiber/fiber/v2 v2.49.2
 	github.com/google/uuid v1.3.1
 	github.com/redis/go-redis/v9 v9.2.0
+	golang.org/x/sync v0.7.0
 )
 
 require (
